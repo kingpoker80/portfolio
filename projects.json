@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Project One",
+    "description": "Next.js와 Framer Motion을 이용한 인터랙티브 웹사이트",
+    "tags": ["React", "Next.js", "Tailwind"],
+    "link": "https://github.com",
+    "image": "https://dummyimage.com/600x400/40440f/fff/600X400_1.jpg"
+  },
+  {
+    "title": "Project Two",
+    "description": "데이터 시각화 대시보드 구축 프로젝트",
+    "tags": ["D3.js", "Vue", "Firebase"],
+    "link": "https://github.com",
+    "image": "https://dummyimage.com/600x400/40440f/222/600X400_1.jpg"
+  },
+  {
+    "title": "Project 3",
+    "description": "데이터 시각화 대시보드 구축 프로젝트",
+    "tags": ["D3.js", "Vue", "Firebase"],
+    "link": "https://github.com",
+    "image": "https://dummyimage.com/600x400/40440f/222/600X400_1.jpg"
+  }
+]
