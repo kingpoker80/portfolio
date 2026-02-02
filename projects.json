@@ -1,4 +1,11 @@
 [
+    {
+    "title": "Photo Copy - OCR 텍스트 추출",
+    "description": "이미지에서 텍스트를 자동으로 추출하는 OCR 도구",
+    "tags": ["Tesseract.js", "OCR", "JavaScript"],
+    "link": "photo_copy.html",
+    "image": "https://dummyimage.com/600x400/ff6b00/fff/PhotoCopy.jpg"
+  },
   {
     "title": "Project One",
     "description": "Next.js와 Framer Motion을 이용한 인터랙티브 웹사이트",
