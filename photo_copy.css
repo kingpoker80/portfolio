@@ -1,0 +1,80 @@
+/* Photo Copy CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+  font-family: "Plus Jakarta Sans", "Noto Sans KR", sans-serif;
+}
+
+.upload-area {
+  text-align: center;
+  padding: 3rem;
+  border: 2px dashed #444;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: rgba(255, 107, 0, 0.02);
+}
+
+.upload-area:hover {
+  border-color: #ff6b00;
+  background-color: rgba(255, 107, 0, 0.05);
+  transform: scale(1.02);
+}
+
+.upload-area.drag-over {
+  border-color: #ff6b00;
+  background-color: rgba(255, 107, 0, 0.1);
+  transform: scale(1.02);
+}
+
+/* 애니메이션 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease;
+}
+
+/* 스크롤바 커스터마이징 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 107, 0, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff6b00;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff5a00;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .upload-area {
+    padding: 2rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
+}
